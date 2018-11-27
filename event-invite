@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+    
+    <style>
+        h1 {
+            background-color: rgb(111, 130, 133);
+            font: bold 30px "Courier New", Arial;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        
+        h2 {
+            background-color: rgb(200, 230, 230);
+            font: bold 20px Courier, Arial;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        
+        ul {
+            font: 16px "Monaco", Arial;
+            text-align: center;
+            
+            }
+            
+            .sidebar {
+                text-align: center;
+                background-color: rgb(200, 230, 230);
+                width: 25%;
+                padding: 10px;
+                border: 3px inset rgb(255, 255, 255);
+                position: fixed;
+                float: left;
+                left: 20px;
+                bottom: 20px;
+                top: 20px;
+            }
+            
+            #content {
+                background-color: white;
+                border: 3px inset rgb(255, 255, 255);
+                width: 60%;
+                position: relative;
+                float: right;
+                padding: 0px 15px 15px 15px;
+                bottom: 20px;
+                left: 10px;
+                overflow: auto;
+                text-align: center;
+            }
+            
+            body {
+                background-color: rgb(201, 201, 201);
+            }
+           
+            .rsvp {
+                color: white;
+                font-family: "Garamond", "Arial";
+                letter-spacing: 5px;
+                font-weight: bold;
+                background-color: rgb(111, 130, 133);
+                padding: 10px;
+                border: 1px outset rgb(201, 201, 201);
+                text-align: center;
+                text-decoration: none;
+            }
+    </style>
+        
+        <div id="content">
+        
+        <h1>You're invited!</h1>
+        <h2>To something!</h2>
+        
+        Lorem ipsum dolor sit amet, ad eruditi alienum consequat vis. Ei autem sanctus sententiae vel, in ius aliquando sententiae. Epicuri forensibus ad eam, cu pro dolor quidam. Id vix esse facilis, te sit diam quidam, mea ne tation possit oporteat. Tantas exerci oportere nam cu, suas decore ius an. Vel ubique veritus voluptaria eu, has eu habeo nusquam petentium. Mandamus indoctum constituto ut has.
+
+Usu quod quot labore cu, sea id velit dolor. Usu ad dicat choro, elitr accommodare at qui. Ex qui natum torquatos. Brute mazim quaerendum cu sed, iriure assueverit ex sea.
+
+Ei ullum elaboraret duo, eum tritani habemus te, eu ignota ceteros suscipit sea. Sit deleniti consectetuer at, ex semper everti malorum quo. Sit ad ubique docendi, semper disputando vis eu. Est erant utinam impedit ut. Te vis quem voluptaria, sit docendi perfecto eu, eos odio alii postea at. Duo te homero prodesset efficiantur.
+
+Mei melius aeterno definiebas an, ea ridens apeirian nec, cum at tollit consulatu. No putent voluptatum vim, vix dico dicta ex. Te molestie oportere prodesset nec. Sit essent habemus sensibus ea, mundi facilisis dissentiet ut mei.
+
+Ut facer simul eam, scaevola quaestio indoctum duo ei, sea sale porro ei. Ea nam fabulas adipiscing, est assum nullam te. Virtute nostrud pericula per in, ex quis atqui vis. Id magna aliquid petentium sea, propriae postulant in nam, nec odio constituam te. In qui omnesque incorrupte. Cu sea option antiopam scribentur, te eos malorum repudiandae.
+        </div>
+        
+        <div class="sidebar">
+        
+        Guest List: <p>
+        Esteban<br>
+        Bertha<br>
+        Charlotte<br>
+        Dmitri<br>
+        William<br>
+        Sandra<br>
+        Penelope<br>
+        Agnes<br>
+        Vivian
+        </p>
+        <p>
+        <a href="http://wikipedia.com" class="rsvp">RSVP</a>
+        </p>
+        </div>
+        
+    </body>
+</html>
