@@ -10,6 +10,11 @@
     <body>
     
     <style>
+    
+        body {
+                background-color: rgb(201, 201, 201);
+            }
+            
         h1 {
             background-color: rgb(111, 130, 133);
             font: bold 30px "Courier New", Arial;
@@ -26,26 +31,9 @@
             
         }
         
-        ul {
-            font: 16px "Monaco", Arial;
-            text-align: center;
-            
-            }
-            
-            .sidebar {
-                text-align: center;
-                background-color: rgb(200, 230, 230);
-                width: 25%;
-                padding: 10px;
-                border: 3px inset rgb(255, 255, 255);
-                position: fixed;
-                float: left;
-                left: 20px;
-                bottom: 20px;
-                top: 20px;
-            }
-            
             #content {
+                font-family: Verdana, Arial;
+                font-size: 14px;
                 background-color: white;
                 border: 3px inset rgb(255, 255, 255);
                 width: 60%;
@@ -58,42 +46,67 @@
                 text-align: center;
             }
             
-            body {
-                background-color: rgb(201, 201, 201);
+            #sidebar {
+                font-family: Garamond, Arial;
+                font-size: 20px;
+                text-align: center;
+                background-color: rgb(200, 230, 230);
+                width: 25%;
+                padding: 10px;
+                border: 3px inset rgb(255, 255, 255);
+                position: fixed;
+                float: left;
+                left: 20px;
+                bottom: 20px;
+                top: 20px;
             }
-           
+            
             .rsvp {
                 color: white;
-                font-family: "Garamond", "Arial";
+                font-family: Arial;
                 letter-spacing: 5px;
-                font-weight: bold;
+                font-weight: normal;
                 background-color: rgb(111, 130, 133);
                 padding: 10px;
                 border: 1px outset rgb(201, 201, 201);
                 text-align: center;
                 text-decoration: none;
             }
+            
+            table { 
+                border-style: none;
+            }
+            
     </style>
         
         <div id="content">
         
         <h1>You're invited!</h1>
-        <h2>To something!</h2>
+        <h2>To the Boston Tea Party!</h2>
         
-        Lorem ipsum dolor sit amet, ad eruditi alienum consequat vis. Ei autem sanctus sententiae vel, in ius aliquando sententiae. Epicuri forensibus ad eam, cu pro dolor quidam. Id vix esse facilis, te sit diam quidam, mea ne tation possit oporteat. Tantas exerci oportere nam cu, suas decore ius an. Vel ubique veritus voluptaria eu, has eu habeo nusquam petentium. Mandamus indoctum constituto ut has.
-
-Usu quod quot labore cu, sea id velit dolor. Usu ad dicat choro, elitr accommodare at qui. Ex qui natum torquatos. Brute mazim quaerendum cu sed, iriure assueverit ex sea.
-
-Ei ullum elaboraret duo, eum tritani habemus te, eu ignota ceteros suscipit sea. Sit deleniti consectetuer at, ex semper everti malorum quo. Sit ad ubique docendi, semper disputando vis eu. Est erant utinam impedit ut. Te vis quem voluptaria, sit docendi perfecto eu, eos odio alii postea at. Duo te homero prodesset efficiantur.
-
-Mei melius aeterno definiebas an, ea ridens apeirian nec, cum at tollit consulatu. No putent voluptatum vim, vix dico dicta ex. Te molestie oportere prodesset nec. Sit essent habemus sensibus ea, mundi facilisis dissentiet ut mei.
-
-Ut facer simul eam, scaevola quaestio indoctum duo ei, sea sale porro ei. Ea nam fabulas adipiscing, est assum nullam te. Virtute nostrud pericula per in, ex quis atqui vis. Id magna aliquid petentium sea, propriae postulant in nam, nec odio constituam te. In qui omnesque incorrupte. Cu sea option antiopam scribentur, te eos malorum repudiandae.
+        You are cordially invited to my tea party, located in Columbus Park in Boston.  There will be finger sandwiches, as well as ten different types of tea, most notably Earl Grey.  You are expected to bring your own fine china.  Sugar and honey will be provided.  Women must dress in traditional Victorian era gowns. Men may wear simple suits with muted color schemes.  Please be polite to the other guests and refrain from tea-shaming.
+        
+        <p></p>
+        
+        <table bgcolor="white" border="1px">
+            <tr>
+                <td>
+                   
+        Date: 11/30/18</td><td>
+        Time: 12:30pm</td><td>
+        Location: Boston
+                    
+                </td>
+            </tr>
+        </table>
+        
+        
+        <p></p>
         </div>
         
-        <div class="sidebar">
+        <div id="sidebar">
         
-        Guest List: <p>
+        <strong>Guest List:</strong> <p>
         Esteban<br>
         Bertha<br>
         Charlotte<br>
@@ -102,11 +115,12 @@ Ut facer simul eam, scaevola quaestio indoctum duo ei, sea sale porro ei. Ea nam
         Sandra<br>
         Penelope<br>
         Agnes<br>
-        Vivian
-        </p>
+        Vivian</p>
+        
         <p>
-        <a href="http://wikipedia.com" class="rsvp">RSVP</a>
+        <a href="http://khanacademy.org" class="rsvp">RSVP</a>
         </p>
+        
         </div>
         
     </body>
